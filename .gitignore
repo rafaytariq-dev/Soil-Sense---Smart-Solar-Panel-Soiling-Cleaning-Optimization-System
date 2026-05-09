@@ -1,0 +1,9 @@
+# Ignore the environment variables file (Fox credentials)
+.env
+
+# Ignore the heavy image data
+Data/raw/
+Data/preprocessed/
+# Optional: Ignore Python cache files
+__pycache__/
+*.pyc
