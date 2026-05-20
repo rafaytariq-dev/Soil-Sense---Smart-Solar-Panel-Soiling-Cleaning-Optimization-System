@@ -1,0 +1,13 @@
+tensorflow>=2.18,<2.20
+numpy>=2.0,<2.1
+scikit-learn>=1.5,<1.7
+opencv-python
+pillow
+pandas
+scikit-image
+tqdm
+requests
+fastapi
+uvicorn[standard]
+python-multipart
+plotly

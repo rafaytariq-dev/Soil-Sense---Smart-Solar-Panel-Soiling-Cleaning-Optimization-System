@@ -1,0 +1,52 @@
+.settings-bar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 14px 20px;
+}
+
+.settings-fields {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.settings-fields .field-group {
+  min-width: 140px;
+  flex: 1;
+}
+
+.range-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.range-row input[type="range"] {
+  flex: 1;
+}
+
+.range-val {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--amber);
+  white-space: nowrap;
+  min-width: 36px;
+  text-align: right;
+}
+
+.settings-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 140px;
+}
+
+.settings-loc {
+  font-size: 0.82rem;
+  color: var(--text-2);
+}

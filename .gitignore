@@ -7,3 +7,22 @@ Data/preprocessed/
 # Optional: Ignore Python cache files
 __pycache__/
 *.pyc
+*.pyc
+**/__pycache__/
+*.py[cod]
+
+Data/
+*.csv
+# Model binaries
+Models/
+*.keras
+*.pkl
+
+Webapp/frontend/node_modules/
+Webapp/frontend/dist/
+
+.env
+.env.local
+
+.vscode/
+.DS_Store

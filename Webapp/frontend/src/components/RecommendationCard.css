@@ -1,0 +1,136 @@
+.rec-card,
+.rec-placeholder {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.rec-empty {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  text-align: center;
+  padding: 32px 0;
+  border: 1px dashed var(--border-2);
+  border-radius: var(--radius);
+}
+
+.rec-action-block {
+  border-left: 4px solid;
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rec-action {
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+.rec-reason {
+  font-size: 0.83rem;
+  color: var(--text-2);
+  line-height: 1.55;
+}
+
+.rec-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.rec-metric {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rec-metric-val {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.rec-suppressed {
+  font-size: 0.78rem;
+  color: var(--text-2);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+}
+
+.rec-weather-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.rec-tag {
+  font-size: 0.75rem;
+  color: var(--text-2);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  border-radius: 99px;
+}
+
+.rec-crosscheck {
+  border-left: 4px solid;
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rec-crosscheck-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rec-crosscheck-icon {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.rec-crosscheck-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.rec-crosscheck-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.rec-crosscheck-cell {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.rec-crosscheck-val {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.rec-crosscheck-msg {
+  font-size: 0.8rem;
+  color: var(--text-2);
+  line-height: 1.5;
+}
